@@ -1,4 +1,9 @@
-// method参数即为字面类型
+// 这些就是字面量类型
+type GET = "GET";
+type MONDAY = 1;
+type SUCCESS = true;
+
+// method参数即为字面量类型的联合类型
 function handleRequest(url: string, method: "GET" | "POST" | "PUT" | "DELETE") {
   // ...
 }

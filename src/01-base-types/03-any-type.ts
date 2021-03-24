@@ -15,10 +15,3 @@ anyObj();
 
 // any大法几乎可以解决你刚使用TypeScript时遇到的大部分问题
 // 不过还是应该慎用，要不然就失去了使用TypeScript的意义
-
-// 顺便说一下空对象类型，如果要用，推荐第2种写法
-let emptyObj1: object;
-let emptyObj2: {};
-// 无法访问不存在的属性
-emptyObj1.foo;
-emptyObj2.foo;

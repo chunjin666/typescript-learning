@@ -7,7 +7,7 @@ const success: boolean = true;
 
 // 或者省略类型注解的写法
 let myName2 = 'da shuai bi';
-// 注意这里类型推断出来跟上面一个变量是不一样的
+// 注意这里类型推论出来跟上面一个变量是不一样的
 const myName3 = 'da shuai bi';
 const myAge2 = 18;
 const success2 = true;

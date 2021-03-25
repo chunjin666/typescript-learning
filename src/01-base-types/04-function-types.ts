@@ -7,7 +7,7 @@ function greet(name: string) {
   console.log("Hello, " + name.toUpperCase() + "!!");
 }
 
-// 编译器会进行类型推断得到返回值类型
+// 编译器会进行类型推论得到返回值类型
 // 但推荐还是写清楚，这样一眼就能看出来返回值类型
 function getGreet2(name: string) {
   return "Hello, " + name.toUpperCase() + "!!";

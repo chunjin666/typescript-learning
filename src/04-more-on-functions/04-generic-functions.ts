@@ -13,7 +13,7 @@ function firstElement<T>(arr: T[]): T {
 const firstNum: number = firstElement<number>([1, 2, 3]);
 const firstStr: string = firstElement<string>(['1', '2', '3']);
 
-// ---------------------泛型函数的类型推断----------------------
+// ---------------------泛型函数的类型推论----------------------
 // 数组 `map` 方法的函数定义
 // 表示把 `Input` 类型 转换成 `Output` 类型
 function map<Input, Output>(arr: Input[], func: (arg: Input) => Output): Output[] {

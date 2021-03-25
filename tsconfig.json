@@ -1,16 +1,22 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "module": "commonjs",
+    "module": "CommonJS",
     "target": "ES5",
+    "jsx": "preserve",
     "outDir": "dist/",
     "sourceMap": true,
     "declaration": true,
+    "alwaysStrict": true,
+    "strict": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "strictNullChecks": true,
     "experimentalDecorators": true,
+    "paths": {
+      "@/*": ["src/*"],
+    }
   },
-  "include": ["src"]
+  "include": ["src/**/*"]
 }

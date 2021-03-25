@@ -1,17 +1,3 @@
-// export const config = {};
-
-// Promise.resolve().then(
-// 		() => {
-// 			return Promise.reject(Error('resolve reject'))
-// 		},
-// 		(e) => {
-// 			console.log('get rejected', e)
-// 		}
-// 	)
-// 	.catch((e) => {
-// 		console.log('catched', e)
-// 	})
-
 
 Promise.reject('error').then(
 		() => {
@@ -40,5 +26,4 @@ Promise.reject('error').then(
 // 	console.log(val)
 // })
 
-console.log(process.env)
-process.env
+console.log('test');
